@@ -24,7 +24,7 @@
         </div>
     </div>
     
-    <div class="hidden lg:block w-max gap-5">
+    <div class="hidden lg:block w-max gap-3">
         <div class="w-100 h-100 flex gap-5 justify-center items-center">
             
             <button 
