@@ -14,7 +14,7 @@
     ])
     @stack('style')
 </head>
-<body>
+<body class="bg-zeembi-black">
     <nav class="w-screen">
         @include('partials.nav')
     </nav>
