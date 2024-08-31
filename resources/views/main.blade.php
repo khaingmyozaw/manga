@@ -15,11 +15,11 @@
     @stack('style')
 </head>
 <body class="bg-zeembi-black">
-    <nav class="w-screen">
+    <nav class="w-full overflow-hidden">
         @include('partials.nav')
     </nav>
 
-    <main class="w-screen p-5">
+    <main class="w-full overflow-hidden">
         @yield('content')
     </main>
 

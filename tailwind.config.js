@@ -12,7 +12,8 @@ export default {
         'zeembi-red': "#B9090B",
         'zeembi-blue': "#5946A4",
         'zeembi-black': "#272727",
-        'zeembi-gray': "#454545"
+        'zeembi-gray': "#454545",
+        'zeembi-red': "#B9090B"
       }
     },
   },

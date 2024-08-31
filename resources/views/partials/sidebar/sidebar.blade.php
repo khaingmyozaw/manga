@@ -46,7 +46,7 @@
 
          <x-sidebar-item-component :content="'Popular'">
 
-            <svg class="flex-shrink-0 w-5 h-5 text-gray-300 transition duration-75 group-hover:text-gray-100" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 80 96"><path d="M18 22C13.3 25.9 2.7 38.1 4 66 8.5 96.5 40 96 40 96s35.3-0.4 36-36S47 2 47 2s13.4 34-9 37C15.2 41.6 18 22 18 22ZM56 40s12.4 24-4 38c-3.2 3.7-22.9 8.6-28-4-5.2-15.2 7-18.9 12-19C57.4 54.4 56 40 56 40Z" fill="#B9090B"/></svg>
 
          </x-sidebar-item-component>
 

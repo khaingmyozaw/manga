@@ -2,7 +2,7 @@
 
 {{-- <button data-popover-target="popover-no-arrow" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Default popover</button> --}}
 
-<div data-popover id="popover-no-arrow" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-base text-slate-400 transition-opacity duration-300 bg-zeembi-black border border-zeembi-gray rounded-lg shadow-sm opacity-0">
+<div data-popover id="popover-no-arrow" role="tooltip" class="absolute z-30 invisible inline-block w-64 text-base text-slate-400 transition-opacity duration-300 bg-zeembi-black border border-zeembi-gray rounded-lg shadow-sm opacity-0">
     <ul class="py-2">
         <li class="w-100 overflow-hidden px-4 py-2 hover:bg-zeembi-gray">
             <a href="#" class="w-100 group/link p-2 flex items-center text-lg transition-all duration-75 ">
