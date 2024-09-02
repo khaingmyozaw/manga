@@ -12,6 +12,11 @@
         'resources/frameworks/flowbite.min.js',
         'resources/js/app.js',
     ])
+    <style>
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
     @stack('style')
 </head>
 <body class="bg-zeembi-black">

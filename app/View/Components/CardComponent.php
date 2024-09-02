@@ -12,16 +12,18 @@ class CardComponent extends Component
      * Create a new component instance.
      */
     public function __construct(
-        // public string $title,
-        // public string $desc,
-        // public int $chapter,
-        // public int $viewer,
+        public string $title,
+        public string $desc,
+        public int $chapter,
+        public int $viewer,
+        public string $thumbnail,
     )
     {
-        // $this->title = $title;
-        // $this->desc = $desc;
-        // $this->chapter = $chapter;
-        // $this->viewer = $viewer;
+        $this->title = $title;
+        $this->desc = $desc;
+        $this->chapter = $chapter;
+        $this->viewer = $viewer;
+        $this->thumbnail = $thumbnail;
     }
 
     /**

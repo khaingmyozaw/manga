@@ -7,15 +7,105 @@
         </a>
     </div>
 
-    <div class="w-full flex flex-nowrap overflow-x-auto">
-        <x-card-component/>
-        <x-card-component/>
-        <x-card-component/>
-        <x-card-component/>
-        <x-card-component/>
-        <x-card-component/>
-        <x-card-component/>
-        <x-card-component/>
-        <x-card-component/>
+    <div class="w-full flex flex-nowrap overflow-x-auto snap-x scroll-smooth">
+
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+        <x-card-component
+        :thumbnail="'images/prototype.jpg'"
+        :title="'I Am Carrying Gold From'"
+        :chapter=400
+        :viewer=100
+        :desc="'Chapter 4: Can\’t let it end'"
+        />
+
     </div>
 </div>
