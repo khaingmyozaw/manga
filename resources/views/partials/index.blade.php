@@ -6,5 +6,6 @@
 @include('partials.cards.latest-section')
 @include('partials.banner.advertise')
 @include('partials.cards.popular')
+@include('partials.cards.all-releases')
 
 @endsection()

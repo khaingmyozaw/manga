@@ -1,4 +1,4 @@
-<div class="snap-start shrink-0 xs:w-1/2 sm:w-1/3 md:w-1/4 lg:w-56 px-2">
+<div class="snap-start shrink-0 xs:w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 p-2">
     <a href="#" class="group/card_item w-full block rounded-md shadow-md overflow-hidden relative">
         <img src="{{ asset($thumbnail) }}" alt="prototype" class="h-72 w-full object-cover object-center relative">
 
