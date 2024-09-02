@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'zeembi-red': "#B9090B",
+        'zeembi-red': "w",
         'zeembi-blue': "#5946A4",
         'zeembi-black': "#272727",
         'zeembi-gray': "#454545",
