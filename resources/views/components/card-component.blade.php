@@ -2,10 +2,11 @@
     <a href="#" class="group/card_item w-full block rounded-md shadow-md overflow-hidden relative">
         <img src="{{ asset($thumbnail) }}" alt="prototype" class="h-72 w-full object-cover object-center relative">
 
-        <div class="p-4 pt-8 -translate-y-full bg-gradient-to-b from-[#27272705] to-black absolute group-hover/card_item:pb-6 transition-all">
+        <div class="p-2 pt-8 -translate-y-full bg-gradient-to-b from-[#27272705] to-black absolute">
             <h1 class="text-lg text-white font-bold line-clamp-1  group-hover/card_item:underline">
                 {{ $title }}
             </h1>
+            @if ( $chapter !== 0 && $viewer !== 0 )
             <div class="flex justify-between items-center">
                 <b class="text-gray-100">
                     #{{ $chapter }}
@@ -17,7 +18,8 @@
                     {{ $viewer }}
                 </span>
             </div>
-            <p class="text-sm text-gray-300 line-clamp-1">
+            @endif
+            <p class="text-sm text-gray-300 line-clamp-1  group-hover/card_item:mb-2 transition-all">
                 {{ $desc }}
             </p>
         </div>

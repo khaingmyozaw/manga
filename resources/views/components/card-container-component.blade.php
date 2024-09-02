@@ -1,9 +1,9 @@
 <div class="w-11/12 mx-auto my-12">
     <div class="flex justify-between items-center mb-6">
         @if ($type=='latest')
-        <x-title-component :content="'Latest Releases'"/>
+        <x-title-component :content="'Latest Releases'" class="border-l-4 border-zeembi-red"/>
         @else
-        <x-title-component :content="'Popular'"/>
+        <x-title-component :content="'Popular'" class="border-l-4 border-zeembi-red"/>
         @endif
         <a href="{{ $url }}" class="text-base underline font-semibold text-zeembi-red flex items-center gap-1">
             View All
