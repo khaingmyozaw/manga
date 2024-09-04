@@ -27,6 +27,9 @@
     <main class="w-full overflow-hidden">
         @yield('content')
     </main>
+    <footer class="w-full overflow-hidden">
+        @include('partials.footer')
+    </footer>
 
     @stack('script')
 </body>

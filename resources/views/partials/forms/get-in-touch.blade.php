@@ -5,7 +5,7 @@
             <input  type="text" 
                     id="message" name="message" 
                     placeholder="Write some messages here..."
-                    class="bg-transparent border-0 ring-0 focus:ring-0"
+                    class="text-white bg-transparent border-0 ring-0 focus:ring-0"
                     />
             <button class="p-3 h-full bg-zeembi-gray hover:bg-white/20 transition-all">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#B9090B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
