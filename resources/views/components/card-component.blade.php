@@ -1,6 +1,6 @@
-<div class="snap-start shrink-0 xs:w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 p-2">
+<div class="snap-start shrink-0 xs:w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xs:p-2 sm:p-3 md:p-4 lg:p-4">
     <a href="#" class="group/card_item w-full block rounded-md shadow-md overflow-hidden relative">
-        <img src="{{ asset($thumbnail) }}" alt="prototype" class="h-72 w-full object-cover object-center relative">
+        <img src="{{ asset($thumbnail) }}" alt="prototype" class="xs:h-72 sm:h-72 md:h-72 lg:h-72 w-full object-cover object-center relative">
 
         <div class="p-2 pt-8 -translate-y-full bg-gradient-to-b from-[#27272705] to-black absolute">
             <h1 class="text-lg text-white font-bold line-clamp-1  group-hover/card_item:underline">

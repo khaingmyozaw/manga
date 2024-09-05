@@ -1,6 +1,6 @@
 
 
-<div id="default-carousel" class="relative w-full h-96 z-0 overflow-hidden" data-carousel="slide">
+<div id="default-carousel" class="relative w-full h-96 z-0 overflow-hidden mt-16" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-full overflow-hidden shadow">
          <!-- Item 1 -->

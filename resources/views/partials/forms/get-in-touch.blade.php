@@ -1,11 +1,11 @@
 <div class="w-full my-8">
     <x-title-component :content="'What do you want for next manga?'" class="text-center mb-6"/>
     <form action="" method="">
-        <label for="message" class="mx-auto rounded w-80 flex justify-center bg-zeembi-gray/50 overflow-hidden">
+        <label for="message" class="mx-auto rounded w-80 flex justify-between bg-zeembi-gray/50 overflow-hidden">
             <input  type="text" 
                     id="message" name="message" 
                     placeholder="Write some messages here..."
-                    class="text-white bg-transparent border-0 ring-0 focus:ring-0"
+                    class="text-white bg-transparent border-0 ring-0 focus:ring-0 grow"
                     />
             <button class="p-3 h-full bg-zeembi-gray hover:bg-white/20 transition-all">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#B9090B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
