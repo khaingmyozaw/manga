@@ -31,6 +31,7 @@
         @include('partials.footer')
     </footer>
 
+    <script src="{{ asset('cdn/js/jquery.min.js') }}"></script>
     @stack('script')
 </body>
 </html>

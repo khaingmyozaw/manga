@@ -2,6 +2,7 @@
 export default {
   content: [
     "./resources/**/*.blade.php",
+    "./resources/views/partials/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
     "./node_modules/flowbite/**/*.js",
@@ -9,7 +10,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        'zeembi-red': "w",
         'zeembi-blue': "#5946A4",
         'zeembi-black': "#272727",
         'zeembi-gray': "#454545",
