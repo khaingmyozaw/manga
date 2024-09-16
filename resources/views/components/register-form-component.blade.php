@@ -1,5 +1,5 @@
 <div class="py-8 mx-auto bg-zeembi-gray rounded">
-    <div class="mx-auto xs:w-10/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-8/12 bg-[url('/public/images/default_images/register-bg.png')] shadow">
+    <div class="mx-auto xs:w-10/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-8/12 bg-[url('/public/images/default_images/register-bg.png')] shadow-lg rounded">
         <div class="w-full h-full py-4 bg-zeembi-black bg-opacity-80">
 
             <div class="w-full h-auto mt-8">
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="w-full text-white bg-zeembi-blue hover:bg-blue-800 focus:ring-0 focus:outline-none font-medium rounded-sm text-sm px-5 py-2.5 text-center !important">Sign in</button>
+                    <button type="submit" class="w-full rounded text-white bg-blue-800 hover:bg-blue-700 focus:ring-0 focus:outline-none font-medium rounded-sm text-sm px-5 py-2.5 text-center">Sign in</button>
                 </form>
 
                 <div class="mt-3 mb-5">
@@ -98,7 +98,7 @@
                         <div>
                             <label for="dob" class="block mb-2 text-sm font-medium text-white">Date of birth</label>
                             <div class="w-full bg-zeembi-black bg-opacity-50 rounded-lg border-slate-200 overflow-hidden">
-                                <input type="number" id="dob" name="dob" 
+                                <input type="text" id="dob" name="dob" 
                                 class="bg-transparent border border-gray-300 text-white text-sm rounded-lg placeholder:text-gray-400 focus:ring-white focus:border-white block w-full p-2.5" placeholder="123 456 7899" />
     
                             </div>
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="w-full text-white bg-zeembi-blue hover:bg-blue-800 focus:ring-0 focus:outline-none font-medium rounded-sm text-sm px-5 py-2.5 text-center !important">Sign up</button>
+                    <button type="submit" class="w-full rounded text-white bg-blue-800 hover:bg-blue-700 focus:ring-0 focus:outline-none font-medium rounded-sm text-sm px-5 py-2.5 text-center">Sign up</button>
                 </form>
 
                 <div class="mt-3 mb-5">

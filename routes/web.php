@@ -8,3 +8,6 @@ Route::get('/', function () {
 Route::get('/register', function() {
     return view('partials.forms.register');
 });
+Route::get('/login', function() {
+    return view('partials.forms.login');
+});
