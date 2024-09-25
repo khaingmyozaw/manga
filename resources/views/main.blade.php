@@ -19,18 +19,19 @@
     </style>
     @stack('style')
 </head>
-<body class="bg-zeembi-black">
+<body class="w-screen h-screen bg-zeembi-black">
     <nav class="w-full overflow-hidden">
         @include('partials.nav')
     </nav>
 
-    <main class="w-full overflow-hidden">
+    <main class="w-full overflow-hidden mt-16">
         @yield('content')
     </main>
     <footer class="w-full overflow-hidden">
         @include('partials.footer')
     </footer>
 
+    <script src="{{ asset('cdn/js/jquery.min.js') }}"></script>
     @stack('script')
 </body>
 </html>
