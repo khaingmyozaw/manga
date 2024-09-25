@@ -1,5 +1,5 @@
-<div class="py-8 mx-auto bg-zeembi-gray rounded">
-    <div class="mx-auto xs:w-10/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-8/12 bg-[url('/public/images/default_images/register-bg.png')] shadow-lg rounded">
+<div class="h-full py-8 mx-auto bg-zeembi-gray rounded grid place-items-center">
+    <div class="mx-auto xs:w-full sm:w-full md:w-8/12 lg:w-6/12 xl:w-5/12 bg-[url('/public/images/default_images/register-bg.png')] bg-no-repeat bg-center bg-cover shadow-lg rounded">
         <div class="w-full h-full py-4 bg-zeembi-black bg-opacity-80">
 
             <div class="w-full h-auto mt-8">
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="w-full rounded text-white bg-blue-800 hover:bg-blue-700 focus:ring-0 focus:outline-none font-medium rounded-sm text-sm px-5 py-2.5 text-center">Sign in</button>
+                    <button type="submit" class="w-full rounded-lg text-white bg-blue-800 hover:bg-blue-700 focus:ring-0 focus:outline-none font-medium rounded-sm text-sm px-5 py-3 text-center mb-4">Sign in</button>
                 </form>
 
                 <div class="mt-3 mb-5">
@@ -48,7 +48,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" width="24" height="24"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
                         </a>
                         <a href="#" class="p-2 bg-gray-100 rounded">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"><path fill="#0F65FC" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
                         </a>
                     </div>
                 </div>
@@ -97,11 +97,15 @@
                         </div>
                         <div>
                             <label for="dob" class="block mb-2 text-sm font-medium text-white">Date of birth</label>
-                            <div class="w-full bg-zeembi-black bg-opacity-50 rounded-lg border-slate-200 overflow-hidden">
-                                <input type="text" id="dob" name="dob" 
-                                class="bg-transparent border border-gray-300 text-white text-sm rounded-lg placeholder:text-gray-400 focus:ring-white focus:border-white block w-full p-2.5" placeholder="123 456 7899" />
-    
-                            </div>
+                            
+                            <div class="flex items-center py-0.5 px-2.5 max-w-sm w-full bg-zeembi-black bg-opacity-50 rounded-lg border-slate-200 overflow-hidden border border-gray-300">
+                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                                </svg>
+
+                                <input datepicker id="default-datepicker" name="dob" type="text" class="border-0 bg-transparent text-white text-sm rounded-lg placeholder:text-gray-400 focus:ring-0 focus:border-0 block w-full"placeholder="dd/mm/yyyy">
+                              </div>
+                                
                         </div>
                         <div>
                             <label for="gender" class="block mb-2 text-sm font-medium text-white">Gender</label>
@@ -148,7 +152,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" width="24" height="24"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
                         </a>
                         <a href="#" class="p-2 bg-gray-100 rounded">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"><path fill="#0F65FC" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
                         </a>
                     </div>
                 </div>
