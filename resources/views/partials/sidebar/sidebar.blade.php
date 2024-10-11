@@ -28,6 +28,10 @@
 
          </x-sidebar-item-component>
 
+         <x-sidebar-item-component :content="'Packages'">
+            <svg viewBox="0 0 24 24" class="w-5 h-5 text-gray-300 transition duration-75 group-hover:text-gray-100" width="18" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+         </x-sidebar-item-component>
+
          <x-sidebar-item-component :content="'Latest Releases'">
 
             <svg class="flex-shrink-0 w-5 h-5 text-gray-300 transition duration-75 group-hover:text-gray-100" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
@@ -44,7 +48,8 @@
              <button data-dropdown-toggle="dropdown" class="w-full text-start flex items-center p-2 text-gray-100 rounded-lg dark:text-white hover:bg-zeembi-gray dark:hover:bg-gray-700 group css-i6dzq1">
                <svg viewBox="0 0 24 24" class="w-5 h-5 text-gray-300 transition duration-75 group-hover:text-gray-100" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                 <span class="flex-1 ms-3 whitespace-nowrap">Browse</span>
-                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="6 9 12 15 18 9"></polyline></svg>
+
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="#ffffff40" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
              </button>
          </li>
             <!-- Dropdown menu -->
@@ -101,9 +106,6 @@
                </ul>
            </div>
 
-           <x-sidebar-item-component :content="'Profile'">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-300 transition duration-75 group-hover:text-gray-100" height="24" width="18" viewBox="0 0 384 512" fill="#ffffff"><path d="M40.1 467.1l-11.2 9c-3.2 2.5-7.1 3.9-11.1 3.9C8 480 0 472 0 462.2L0 192C0 86 86 0 192 0S384 86 384 192l0 270.2c0 9.8-8 17.8-17.8 17.8c-4 0-7.9-1.4-11.1-3.9l-11.2-9c-13.4-10.7-32.8-9-44.1 3.9L269.3 506c-3.3 3.8-8.2 6-13.3 6s-9.9-2.2-13.3-6l-26.6-30.5c-12.7-14.6-35.4-14.6-48.2 0L141.3 506c-3.3 3.8-8.2 6-13.3 6s-9.9-2.2-13.3-6L84.2 471c-11.3-12.9-30.7-14.6-44.1-3.9zM160 192a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
-           </x-sidebar-item-component>
 
            <x-sidebar-item-component :content="'Bookmarks'">
             <svg viewBox="0 0 24 24" class="w-5 h-5 text-gray-300 transition duration-75 group-hover:text-gray-100" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
