@@ -27,9 +27,9 @@
     <main class="w-full h-screen overflow-y-scroll overflow-x-hidden mt-16">
         @yield('content')
     </main>
-    <footer class="w-full overflow-hidden">
+    {{-- <footer class="w-full overflow-hidden">
         @include('partials.footer')
-    </footer>
+    </footer> --}}
 
     <script src="{{ asset('cdn/js/jquery.min.js') }}"></script>
     @stack('script')
